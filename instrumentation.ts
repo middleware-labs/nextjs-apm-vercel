@@ -3,10 +3,10 @@ import tracker from '@middleware.io/agent-apm-nextjs';
 
 export function register() {
     tracker.track({
-        projectName: "mw-project-vercel",
-        serviceName: "mw-service-vercel",
+        projectName: "mw-project-newvercel",
+        serviceName: "mw-service-newvercel",
         accountKey: "erqorzulkqdjgdrptjcwrrzacohsousghiqk",
         target: "vercel",
     });
-    tracker.info("Instrumentation Done please check now.");
+    tracker.info("Instrumentation Done please check now new vercel data.");
 }

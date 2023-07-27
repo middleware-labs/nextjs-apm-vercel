@@ -9,7 +9,7 @@ export default function personHandler(
   const { query } = req
   const { id } = query
   const person = people.find((p) => p.id === id)
-
+// tracker.info("Info-persom with ID page opened..", {"persionId": id});
   // User with id exists
   return person
     ? res.status(200).json(person)
